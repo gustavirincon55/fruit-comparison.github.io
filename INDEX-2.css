@@ -1,0 +1,45 @@
+
+.fontSize36{
+
+    font-size: 36px;
+
+}
+
+#navbarMenu{
+
+font-size: 28px;
+}
+
+.fruit-prop{
+
+    list-style: none;
+    
+
+}
+
+.fruit-prop > li {
+
+    margin:1em 0em 1em 0em;
+
+}
+
+ .sourceLink{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
+
+.main-footer {
+
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0px;
+    padding: 1em; 
+
+}
