@@ -1,231 +1,729 @@
 {
+    "info": "All of the data found here is extracted from the US Department of Agriculture's main webpage (https://www.usda.gov/). ",
+    "properties": [
+        "Portion",
+        "Water",
+        "Energy",
+        "Protein",
+        "Total lipid (fat)",
+        "Carbohydrate, by difference",
+        "Fiber, total dietary",
+        "Sugars, total",
+        "Minerals",
+        "Calcium, Ca",
+        "Iron, Fe",
+        "Magnesium, Mg",
+        "Phosphorus, P",
+        "Potassium, K",
+        "Sodium, Na",
+        "Zinc, Zn",
+        "Vitamins",
+        "Vitamin C, total ascorbic acid",
+        "Thiamin",
+        "Riboflavin",
+        "Niacin",
+        "Vitamin B-6",
+        "Folate, DFE",
+        "Vitamin B-12",
+        "Vitamin A, RAE",
+        "Vitamin A, IU",
+        "Vitamin E (alpha-tocopherol)",
+        "Vitamin D (D2 + D3)",
+        "Vitamin D",
+        "Vitamin K (phylloquinone)"
+    ],
 
-"info": "All of the data found here is extracted from the US Department of Agriculture's main webpage (https://www.usda.gov/). ",
+    "fruits": {
 
-"properties":[
-            "Portion",
-            "Water", 
-            "Energy", 
-            "Protein", 
-            "Total lipid (fat)", 
-            "Carbohydrate, by difference", 
-            "Fiber, total dietary",
-            "Sugars, total", 
-            "Minerals",
-            "Calcium, Ca", 
-            "Iron, Fe", 
-            "Magnesium, Mg", 
-            "Phosphorus, P", 
-            "Potassium, K", 
-            "Sodium, Na", 
-            "Zinc, Zn", 
-            "Vitamins",
-            "Vitamin C, total ascorbic acid", 
-            "Thiamin", 
-            "Riboflavin", 
-            "Niacin", 
-            "Vitamin B-6", 
-            "Folate, DFE", 
-            "Vitamin B-12", 
-            "Vitamin A, RAE", 
-            "Vitamin A, IU", 
-            "Vitamin E (alpha-tocopherol)", 
-            "Vitamin D (D2 + D3)", 
-            "Vitamin D", 
-            "Vitamin K (phylloquinone)" 
-        ],
-
-"apple":[
-
+        "apple": [
             {
-                "Portion":"100gr","Water ":"85.56 g","Energy ":"52 kcal","Protein ":"0.26 g","Total lipid (fat) ":"0.17 g","Carbohydrate, by difference ":"13.81 g","Fiber, total dietary ":"2.4 g","Sugars, total ":"10.39 g","Minerals":" ","Calcium, Ca ":"6 mg","Iron, Fe ":"0.12 mg","Magnesium, Mg ":"5 mg","Phosphorus, P ":"11 mg","Potassium, K ":"107 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.04 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"4.6 mg","Thiamin ":"0.017 mg","Riboflavin ":"0.026 mg","Niacin ":"0.091 mg","Vitamin B-6 ":"0.041 mg","Folate, DFE ":"3 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"3 µg","Vitamin A, IU ":"54 IU","Vitamin E (alpha-tocopherol) ":"0.18 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"2.2 µg"
-            }
-            ,
+                "Portion": "100gr",
+                "Water ": "85.56 g",
+                "Energy ": "52 kcal",
+                "Protein ": "0.26 g",
+                "Total lipid (fat) ": "0.17 g",
+                "Carbohydrate, by difference ": "13.81 g",
+                "Fiber, total dietary ": "2.4 g",
+                "Sugars, total ": "10.39 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "6 mg",
+                "Iron, Fe ": "0.12 mg",
+                "Magnesium, Mg ": "5 mg",
+                "Phosphorus, P ": "11 mg",
+                "Potassium, K ": "107 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.04 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "4.6 mg",
+                "Thiamin ": "0.017 mg",
+                "Riboflavin ": "0.026 mg",
+                "Niacin ": "0.091 mg",
+                "Vitamin B-6 ": "0.041 mg",
+                "Folate, DFE ": "3 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "3 µg",
+                "Vitamin A, IU ": "54 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.18 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "2.2 µg"
+            },
             {
-                "Portion":"NLEA serving 242gr","Water ":"207.06 g","Energy ":"126 kcal","Protein ":"0.63 g","Total lipid (fat) ":"0.41 g","Carbohydrate, by difference ":"33.42 g","Fiber, total dietary ":"5.8 g","Sugars, total ":"25.14 g","Minerals":" ","Calcium, Ca ":"15 mg","Iron, Fe ":"0.29 mg","Magnesium, Mg ":"12 mg","Phosphorus, P ":"27 mg","Potassium, K ":"259 mg","Sodium, Na ":"2 mg","Zinc, Zn ":"0.1 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"11.1 mg","Thiamin ":"0.041 mg","Riboflavin ":"0.063 mg","Niacin ":"0.22 mg","Vitamin B-6 ":"0.099 mg","Folate, DFE ":"7 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"7 µg","Vitamin A, IU ":"131 IU","Vitamin E (alpha-tocopherol) ":"0.44 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"5.3 µg"
-            }
-            ,
+                "Portion": "NLEA serving 242gr",
+                "Water ": "207.06 g",
+                "Energy ": "126 kcal",
+                "Protein ": "0.63 g",
+                "Total lipid (fat) ": "0.41 g",
+                "Carbohydrate, by difference ": "33.42 g",
+                "Fiber, total dietary ": "5.8 g",
+                "Sugars, total ": "25.14 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "15 mg",
+                "Iron, Fe ": "0.29 mg",
+                "Magnesium, Mg ": "12 mg",
+                "Phosphorus, P ": "27 mg",
+                "Potassium, K ": "259 mg",
+                "Sodium, Na ": "2 mg",
+                "Zinc, Zn ": "0.1 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "11.1 mg",
+                "Thiamin ": "0.041 mg",
+                "Riboflavin ": "0.063 mg",
+                "Niacin ": "0.22 mg",
+                "Vitamin B-6 ": "0.099 mg",
+                "Folate, DFE ": "7 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "7 µg",
+                "Vitamin A, IU ": "131 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.44 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "5.3 µg"
+            },
             {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09003?n1=%7BQv%3D1%7D&fgcd=&man=&lfacet=&count=&max=25&sort=fg_s&qlookup=apple&offset=&format=Abridged&new=&measureby=&ds=SR&Qv=1&qt=&qp=&qa=&qn=&q=&ing="
-            }
-        ],
-
-"pear":[
-
-            {
-                "Portion":"100gr","Water ":"83.96 g","Energy ":"57 kcal","Protein ":"0.36 g","Total lipid (fat) ":"0.14 g","Carbohydrate, by difference ":"15.23 g","Fiber, total dietary ":"3.1 g","Sugars, total ":"9.75 g","Minerals":" ","Calcium, Ca ":"9 mg","Iron, Fe ":"0.18 mg","Magnesium, Mg ":"7 mg","Phosphorus, P ":"12 mg","Potassium, K ":"116 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.1 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"4.3 mg","Thiamin ":"0.012 mg","Riboflavin ":"0.026 mg","Niacin ":"0.161 mg","Vitamin B-6 ":"0.029 mg","Folate, DFE ":"7 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"1 µg","Vitamin A, IU ":"25 IU","Vitamin E (alpha-tocopherol) ":"0.12 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"4.4 µg"
-            }
-            ,
-            {
-                "Portion":"NLEEA serving 166 gr","Water ":"139.37 g","Energy ":"95 kcal","Protein ":"0.6 g","Total lipid (fat) ":"0.23 g","Carbohydrate, by difference ":"25.28 g","Fiber, total dietary ":"5.1 g","Sugars, total ":"16.18 g","Minerals":" ","Calcium, Ca ":"15 mg","Iron, Fe ":"0.3 mg","Magnesium, Mg ":"12 mg","Phosphorus, P ":"20 mg","Potassium, K ":"193 mg","Sodium, Na ":"2 mg","Zinc, Zn ":"0.17 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"7.1 mg","Thiamin ":"0.02 mg","Riboflavin ":"0.043 mg","Niacin ":"0.267 mg","Vitamin B-6 ":"0.048 mg","Folate, DFE ":"12 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"2 µg","Vitamin A, IU ":"42 IU","Vitamin E (alpha-tocopherol) ":"0.2 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"7.3 µg"
-            }
-            ,
-            {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09252?fgcd=&manu=&format=Abridged&count=&max=25&offset=&sort=fg_s&order=desc&qlookup=pear&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
-            }
-        ],
-
-"banana":[
-
-            {
-                "Portion":"100gr","Water ":"74.91 g","Energy ":"89 kcal","Protein ":"1.09 g","Total lipid (fat) ":"0.33 g","Carbohydrate, by difference ":"22.84 g","Fiber, total dietary ":"2.6 g","Sugars, total ":"12.23 g","Minerals":" ","Calcium, Ca ":"5 mg","Iron, Fe ":"0.26 mg","Magnesium, Mg ":"27 mg","Phosphorus, P ":"22 mg","Potassium, K ":"358 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.15 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"8.7 mg","Thiamin ":"0.031 mg","Riboflavin ":"0.073 mg","Niacin ":"0.665 mg","Vitamin B-6 ":"0.367 mg","Folate, DFE ":"20 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"3 µg","Vitamin A, IU ":"64 IU","Vitamin E (alpha-tocopherol) ":"0.1 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"0.5 µg"
-
-            }
-            ,
-            {
-                "Portion":"NLEEA serving 126 gr","Water ":"94.39 g","Energy ":"112 kcal","Protein ":"1.37 g","Total lipid (fat) ":"0.42 g","Carbohydrate, by difference ":"28.78 g","Fiber, total dietary ":"3.3 g","Sugars, total ":"15.41 g","Minerals":" ","Calcium, Ca ":"6 mg","Iron, Fe ":"0.33 mg","Magnesium, Mg ":"34 mg","Phosphorus, P ":"28 mg","Potassium, K ":"451 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.19 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"11 mg","Thiamin ":"0.039 mg","Riboflavin ":"0.092 mg","Niacin ":"0.838 mg","Vitamin B-6 ":"0.462 mg","Folate, DFE ":"25 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"4 µg","Vitamin A, IU ":"81 IU","Vitamin E (alpha-tocopherol) ":"0.13 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"0.6 µg"
-
-            }
-            ,
-            {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09040?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=banana+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
-            }
-        ],
-
-"watermelon":[
-
-            {
-                "Portion":"100gr","Water ":"91.45 g","Energy ":"30 kcal","Protein ":"0.61 g","Total lipid (fat) ":"0.15 g","Carbohydrate, by difference ":"7.55 g","Fiber, total dietary ":"0.4 g","Sugars, total ":"6.2 g","Minerals":" ","Calcium, Ca ":"7 mg","Iron, Fe ":"0.24 mg","Magnesium, Mg ":"10 mg","Phosphorus, P ":"11 mg","Potassium, K ":"112 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.1 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"8.1 mg","Thiamin ":"0.033 mg","Riboflavin ":"0.021 mg","Niacin ":"0.178 mg","Vitamin B-6 ":"0.045 mg","Folate, DFE ":"3 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"28 µg","Vitamin A, IU ":"569 IU","Vitamin E (alpha-tocopherol) ":"0.05 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"0.1 µg"
-
-
-            }
-            ,
-            {
-                "Portion":"NLEEA serving 280 gr","Water ":"256.06 g","Energy ":"84 kcal","Protein ":"1.71 g","Total lipid (fat) ":"0.42 g","Carbohydrate, by difference ":"21.14 g","Fiber, total dietary ":"1.1 g","Sugars, total ":"17.36 g","Minerals":" ","Calcium, Ca ":"20 mg","Iron, Fe ":"0.67 mg","Magnesium, Mg ":"28 mg","Phosphorus, P ":"31 mg","Potassium, K ":"314 mg","Sodium, Na ":"3 mg","Zinc, Zn ":"0.28 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"22.7 mg","Thiamin ":"0.092 mg","Riboflavin ":"0.059 mg","Niacin ":"0.498 mg","Vitamin B-6 ":"0.126 mg","Folate, DFE ":"8 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"78 µg","Vitamin A, IU ":"1593 IU","Vitamin E (alpha-tocopherol) ":"0.14 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"0.3 µg"
-
-
-            }
-            ,
-            {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09326?n1=%7BQv%3D1%7D&fgcd=&man=&lfacet=&count=&max=25&sort=default&qlookup=09326&offset=&format=Abridged&new=&measureby=&ds=&Qv=1&qt=&qp=&qa=&qn=&q=&ing="
-            }
-        ],
-
-"strawberrie":[
-
-            {
-                "Portion":"100gr","Water ":"90.95 g","Energy ":"32 kcal","Protein ":"0.67 g","Total lipid (fat) ":"0.3 g","Carbohydrate, by difference ":"7.68 g","Fiber, total dietary ":"2 g","Sugars, total ":"4.89 g","Minerals":" ","Calcium, Ca ":"16 mg","Iron, Fe ":"0.41 mg","Magnesium, Mg ":"13 mg","Phosphorus, P ":"24 mg","Potassium, K ":"153 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.14 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"58.8 mg","Thiamin ":"0.024 mg","Riboflavin ":"0.022 mg","Niacin ":"0.386 mg","Vitamin B-6 ":"0.047 mg","Folate, DFE ":"24 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"1 µg","Vitamin A, IU ":"12 IU","Vitamin E (alpha-tocopherol) ":"0.29 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"2.2 µg"
-
-
-
-            }
-            ,
-            {
-                "Portion":"NLEEA serving 147 gr","Water ":"133.7 g","Energy ":"47 kcal","Protein ":"0.98 g","Total lipid (fat) ":"0.44 g","Carbohydrate, by difference ":"11.29 g","Fiber, total dietary ":"2.9 g","Sugars, total ":"7.19 g","Minerals":" ","Calcium, Ca ":"24 mg","Iron, Fe ":"0.6 mg","Magnesium, Mg ":"19 mg","Phosphorus, P ":"35 mg","Potassium, K ":"225 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.21 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"86.4 mg","Thiamin ":"0.035 mg","Riboflavin ":"0.032 mg","Niacin ":"0.567 mg","Vitamin B-6 ":"0.069 mg","Folate, DFE ":"35 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"1 µg","Vitamin A, IU ":"18 IU","Vitamin E (alpha-tocopherol) ":"0.43 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"3.2 µg"
-
-
-
-            }
-            ,
-            {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09316?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=Strawberries+raw&ds=&qt=&qp=&qa=&qn=&q=&ing="
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09003?n1=%7BQv%3D1%7D&fgcd=&man=&lfacet=&count=&max=25&sort=fg_s&qlookup=apple&offset=&format=Abridged&new=&measureby=&ds=SR&Qv=1&qt=&qp=&qa=&qn=&q=&ing="
             }
         ],
-
-"grape":[
-
+        "pear": [
             {
-                "Portion":"100gr (seedles, red and green)","Water ":"80.54 g","Energy ":"69 kcal","Protein ":"0.72 g","Total lipid (fat) ":"0.16 g","Carbohydrate, by difference ":"18.1 g","Fiber, total dietary ":"0.9 g","Sugars, total ":"15.48 g","Minerals":" ","Calcium, Ca ":"10 mg","Iron, Fe ":"0.36 mg","Magnesium, Mg ":"7 mg","Phosphorus, P ":"20 mg","Potassium, K ":"191 mg","Sodium, Na ":"2 mg","Zinc, Zn ":"0.07 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"3.2 mg","Thiamin ":"0.069 mg","Riboflavin ":"0.07 mg","Niacin ":"0.188 mg","Vitamin B-6 ":"0.086 mg","Folate, DFE ":"2 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"3 µg","Vitamin A, IU ":"66 IU","Vitamin E (alpha-tocopherol) ":"0.19 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"14.6 µg"
-
-
-
-            }
-            ,
+                "Portion": "100gr",
+                "Water ": "83.96 g",
+                "Energy ": "57 kcal",
+                "Protein ": "0.36 g",
+                "Total lipid (fat) ": "0.14 g",
+                "Carbohydrate, by difference ": "15.23 g",
+                "Fiber, total dietary ": "3.1 g",
+                "Sugars, total ": "9.75 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "9 mg",
+                "Iron, Fe ": "0.18 mg",
+                "Magnesium, Mg ": "7 mg",
+                "Phosphorus, P ": "12 mg",
+                "Potassium, K ": "116 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.1 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "4.3 mg",
+                "Thiamin ": "0.012 mg",
+                "Riboflavin ": "0.026 mg",
+                "Niacin ": "0.161 mg",
+                "Vitamin B-6 ": "0.029 mg",
+                "Folate, DFE ": "7 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "1 µg",
+                "Vitamin A, IU ": "25 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.12 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "4.4 µg"
+            },
             {
-                "Portion":"NLEEA serving 126 gr (seedles, red and green)","Water ":"101.48 g","Energy ":"87 kcal","Protein ":"0.91 g","Total lipid (fat) ":"0.2 g","Carbohydrate, by difference ":"22.81 g","Fiber, total dietary ":"1.1 g","Sugars, total ":"19.5 g","Minerals":" ","Calcium, Ca ":"13 mg","Iron, Fe ":"0.45 mg","Magnesium, Mg ":"9 mg","Phosphorus, P ":"25 mg","Potassium, K ":"241 mg","Sodium, Na ":"3 mg","Zinc, Zn ":"0.09 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"4 mg","Thiamin ":"0.087 mg","Riboflavin ":"0.088 mg","Niacin ":"0.237 mg","Vitamin B-6 ":"0.108 mg","Folate, DFE ":"3 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"4 µg","Vitamin A, IU ":"83 IU","Vitamin E (alpha-tocopherol) ":"0.24 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"18.4 µg"
-
-
-
-            }
-            ,
+                "Portion": "NLEEA serving 166 gr",
+                "Water ": "139.37 g",
+                "Energy ": "95 kcal",
+                "Protein ": "0.6 g",
+                "Total lipid (fat) ": "0.23 g",
+                "Carbohydrate, by difference ": "25.28 g",
+                "Fiber, total dietary ": "5.1 g",
+                "Sugars, total ": "16.18 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "15 mg",
+                "Iron, Fe ": "0.3 mg",
+                "Magnesium, Mg ": "12 mg",
+                "Phosphorus, P ": "20 mg",
+                "Potassium, K ": "193 mg",
+                "Sodium, Na ": "2 mg",
+                "Zinc, Zn ": "0.17 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "7.1 mg",
+                "Thiamin ": "0.02 mg",
+                "Riboflavin ": "0.043 mg",
+                "Niacin ": "0.267 mg",
+                "Vitamin B-6 ": "0.048 mg",
+                "Folate, DFE ": "12 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "2 µg",
+                "Vitamin A, IU ": "42 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.2 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "7.3 µg"
+            },
             {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09132?fgcd=&manu=&format=&count=&max=25&offset=&sort=fg_s&order=desc&qlookup=grapes&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
-            }
-        ],
-
-"peach":[
-
-            {
-                "Portion":"100gr","Water ":"88.87 g","Energy ":"39 kcal","Protein ":"0.91 g","Total lipid (fat) ":"0.25 g","Carbohydrate, by difference ":"9.54 g","Fiber, total dietary ":"1.5 g","Sugars, total ":"8.39 g","Minerals":" ","Calcium, Ca ":"6 mg","Iron, Fe ":"0.25 mg","Magnesium, Mg ":"9 mg","Phosphorus, P ":"20 mg","Potassium, K ":"190 mg","Sodium, Na ":"0 mg","Zinc, Zn ":"0.17 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"6.6 mg","Thiamin ":"0.024 mg","Riboflavin ":"0.031 mg","Niacin ":"0.806 mg","Vitamin B-6 ":"0.025 mg","Folate, DFE ":"4 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"16 µg","Vitamin A, IU ":"326 IU","Vitamin E (alpha-tocopherol) ":"0.73 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"2.6 µg"
-
-
-
-            }
-            ,
-            {
-                "Portion":"NLEEA serving 147 gr","Water ":"130.64 g","Energy ":"57 kcal","Protein ":"1.34 g","Total lipid (fat) ":"0.37 g","Carbohydrate, by difference ":"14.02 g","Fiber, total dietary ":"2.2 g","Sugars, total ":"12.33 g","Minerals":" ","Calcium, Ca ":"9 mg","Iron, Fe ":"0.37 mg","Magnesium, Mg ":"13 mg","Phosphorus, P ":"29 mg","Potassium, K ":"279 mg","Sodium, Na ":"0 mg","Zinc, Zn ":"0.25 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"9.7 mg","Thiamin ":"0.035 mg","Riboflavin ":"0.046 mg","Niacin ":"1.185 mg","Vitamin B-6 ":"0.037 mg","Folate, DFE ":"6 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"24 µg","Vitamin A, IU ":"479 IU","Vitamin E (alpha-tocopherol) ":"1.07 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"3.8 µg"
-
-
-
-            }
-            ,
-            {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09236?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=peach+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
-            }
-        ],
-
-"tangerine":[
-
-            {
-                "Portion":"100gr","Water ":"85.17 g","Energy ":"53 kcal","Protein ":"0.81 g","Total lipid (fat) ":"0.31 g","Carbohydrate, by difference ":"13.34 g","Fiber, total dietary ":"1.8 g","Sugars, total ":"10.58 g","Minerals":" ","Calcium, Ca ":"37 mg","Iron, Fe ":"0.15 mg","Magnesium, Mg ":"12 mg","Phosphorus, P ":"20 mg","Potassium, K ":"166 mg","Sodium, Na ":"2 mg","Zinc, Zn ":"0.07 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"26.7 mg","Thiamin ":"0.058 mg","Riboflavin ":"0.036 mg","Niacin ":"0.376 mg","Vitamin B-6 ":"0.078 mg","Folate, DFE ":"16 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"34 µg","Vitamin A, IU ":"681 IU","Vitamin E (alpha-tocopherol) ":"0.2 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"0 µg"
-
-
-
-            }
-            ,
-            {
-                "Portion":"NLEEA serving 109 gr","Water ":"92.84 g","Energy ":"58 kcal","Protein ":"0.88 g","Total lipid (fat) ":"0.34 g","Carbohydrate, by difference ":"14.54 g","Fiber, total dietary ":"2 g","Sugars, total ":"11.53 g","Minerals":" ","Calcium, Ca ":"40 mg","Iron, Fe ":"0.16 mg","Magnesium, Mg ":"13 mg","Phosphorus, P ":"22 mg","Potassium, K ":"181 mg","Sodium, Na ":"2 mg","Zinc, Zn ":"0.08 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"29.1 mg","Thiamin ":"0.063 mg","Riboflavin ":"0.039 mg","Niacin ":"0.41 mg","Vitamin B-6 ":"0.085 mg","Folate, DFE ":"17 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"37 µg","Vitamin A, IU ":"742 IU","Vitamin E (alpha-tocopherol) ":"0.22 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"0 µg"
-
-
-
-            }
-            ,
-            {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09218?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=Tangerines%2C+%28mandarin+oranges%29%2C+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
-            }
-        ],
-
-"blueberrie":[
-
-            {
-                "Portion":"100gr","Water ":"84.21 g","Energy ":"57 kcal","Protein ":"0.74 g","Total lipid (fat) ":"0.33 g","Carbohydrate, by difference ":"14.49 g","Fiber, total dietary ":"2.4 g","Sugars, total ":"9.96 g","Minerals":" ","Calcium, Ca ":"6 mg","Iron, Fe ":"0.28 mg","Magnesium, Mg ":"6 mg","Phosphorus, P ":"12 mg","Potassium, K ":"77 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.16 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"9.7 mg","Thiamin ":"0.037 mg","Riboflavin ":"0.041 mg","Niacin ":"0.418 mg","Vitamin B-6 ":"0.052 mg","Folate, DFE ":"6 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"3 µg","Vitamin A, IU ":"54 IU","Vitamin E (alpha-tocopherol) ":"0.57 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"19.3 µg"
-
-
-
-            }
-            ,
-            {
-                "Portion":"NLEEA serving 68 gr","Water ":"57.26 g","Energy ":"39 kcal","Protein ":"0.5 g","Total lipid (fat) ":"0.22 g","Carbohydrate, by difference ":"9.85 g","Fiber, total dietary ":"1.6 g","Sugars, total ":"6.77 g","Minerals":" ","Calcium, Ca ":"4 mg","Iron, Fe ":"0.19 mg","Magnesium, Mg ":"4 mg","Phosphorus, P ":"8 mg","Potassium, K ":"52 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.11 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"6.6 mg","Thiamin ":"0.025 mg","Riboflavin ":"0.028 mg","Niacin ":"0.284 mg","Vitamin B-6 ":"0.035 mg","Folate, DFE ":"4 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"2 µg","Vitamin A, IU ":"37 IU","Vitamin E (alpha-tocopherol) ":"0.39 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"13.1 µg"
-
-
-
-            }
-            ,
-            {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09050?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=Blueberries%2C+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09252?fgcd=&manu=&format=Abridged&count=&max=25&offset=&sort=fg_s&order=desc&qlookup=pear&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
             }
         ],
-
-"mango":[
-
+        "banana": [
             {
-                "Portion":"100gr","Water ":"83.46 g","Energy ":"60 kcal","Protein ":"0.82 g","Total lipid (fat) ":"0.38 g","Carbohydrate, by difference ":"14.98 g","Fiber, total dietary ":"1.6 g","Sugars, total ":"13.66 g","Minerals":" ","Calcium, Ca ":"11 mg","Iron, Fe ":"0.16 mg","Magnesium, Mg ":"10 mg","Phosphorus, P ":"14 mg","Potassium, K ":"168 mg","Sodium, Na ":"1 mg","Zinc, Zn ":"0.09 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"36.4 mg","Thiamin ":"0.028 mg","Riboflavin ":"0.038 mg","Niacin ":"0.669 mg","Vitamin B-6 ":"0.119 mg","Folate, DFE ":"43 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"54 µg","Vitamin A, IU ":"1082 IU","Vitamin E (alpha-tocopherol) ":"0.9 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"4.2 µg"
-
-
-
+                "Portion": "100gr",
+                "Water ": "74.91 g",
+                "Energy ": "89 kcal",
+                "Protein ": "1.09 g",
+                "Total lipid (fat) ": "0.33 g",
+                "Carbohydrate, by difference ": "22.84 g",
+                "Fiber, total dietary ": "2.6 g",
+                "Sugars, total ": "12.23 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "5 mg",
+                "Iron, Fe ": "0.26 mg",
+                "Magnesium, Mg ": "27 mg",
+                "Phosphorus, P ": "22 mg",
+                "Potassium, K ": "358 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.15 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "8.7 mg",
+                "Thiamin ": "0.031 mg",
+                "Riboflavin ": "0.073 mg",
+                "Niacin ": "0.665 mg",
+                "Vitamin B-6 ": "0.367 mg",
+                "Folate, DFE ": "20 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "3 µg",
+                "Vitamin A, IU ": "64 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.1 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "0.5 µg"
+            },
+            {
+                "Portion": "NLEEA serving 126 gr",
+                "Water ": "94.39 g",
+                "Energy ": "112 kcal",
+                "Protein ": "1.37 g",
+                "Total lipid (fat) ": "0.42 g",
+                "Carbohydrate, by difference ": "28.78 g",
+                "Fiber, total dietary ": "3.3 g",
+                "Sugars, total ": "15.41 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "6 mg",
+                "Iron, Fe ": "0.33 mg",
+                "Magnesium, Mg ": "34 mg",
+                "Phosphorus, P ": "28 mg",
+                "Potassium, K ": "451 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.19 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "11 mg",
+                "Thiamin ": "0.039 mg",
+                "Riboflavin ": "0.092 mg",
+                "Niacin ": "0.838 mg",
+                "Vitamin B-6 ": "0.462 mg",
+                "Folate, DFE ": "25 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "4 µg",
+                "Vitamin A, IU ": "81 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.13 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "0.6 µg"
+            },
+            {
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09040?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=banana+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
             }
-            ,
+        ],
+        "watermelon": [
             {
-                "Portion":"NLEEA serving 336 gr","Water ":"280.43 g","Energy ":"202 kcal","Protein ":"2.76 g","Total lipid (fat) ":"1.28 g","Carbohydrate, by difference ":"50.33 g","Fiber, total dietary ":"5.4 g","Sugars, total ":"45.9 g","Minerals":" ","Calcium, Ca ":"37 mg","Iron, Fe ":"0.54 mg","Magnesium, Mg ":"34 mg","Phosphorus, P ":"47 mg","Potassium, K ":"564 mg","Sodium, Na ":"3 mg","Zinc, Zn ":"0.3 mg","Vitamins":" ","Vitamin C, total ascorbic acid ":"122.3 mg","Thiamin ":"0.094 mg","Riboflavin ":"0.128 mg","Niacin ":"2.248 mg","Vitamin B-6 ":"0.4 mg","Folate, DFE ":"144 µg","Vitamin B-12 ":"0 µg","Vitamin A, RAE ":"181 µg","Vitamin A, IU ":"3636 IU","Vitamin E (alpha-tocopherol) ":"3.02 mg","Vitamin D (D2 + D3) ":"0 µg","Vitamin D ":"0 IU","Vitamin K (phylloquinone) ":"14.1 µg"
-
-
-
+                "Portion": "100gr",
+                "Water ": "91.45 g",
+                "Energy ": "30 kcal",
+                "Protein ": "0.61 g",
+                "Total lipid (fat) ": "0.15 g",
+                "Carbohydrate, by difference ": "7.55 g",
+                "Fiber, total dietary ": "0.4 g",
+                "Sugars, total ": "6.2 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "7 mg",
+                "Iron, Fe ": "0.24 mg",
+                "Magnesium, Mg ": "10 mg",
+                "Phosphorus, P ": "11 mg",
+                "Potassium, K ": "112 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.1 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "8.1 mg",
+                "Thiamin ": "0.033 mg",
+                "Riboflavin ": "0.021 mg",
+                "Niacin ": "0.178 mg",
+                "Vitamin B-6 ": "0.045 mg",
+                "Folate, DFE ": "3 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "28 µg",
+                "Vitamin A, IU ": "569 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.05 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "0.1 µg"
+            },
+            {
+                "Portion": "NLEEA serving 280 gr",
+                "Water ": "256.06 g",
+                "Energy ": "84 kcal",
+                "Protein ": "1.71 g",
+                "Total lipid (fat) ": "0.42 g",
+                "Carbohydrate, by difference ": "21.14 g",
+                "Fiber, total dietary ": "1.1 g",
+                "Sugars, total ": "17.36 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "20 mg",
+                "Iron, Fe ": "0.67 mg",
+                "Magnesium, Mg ": "28 mg",
+                "Phosphorus, P ": "31 mg",
+                "Potassium, K ": "314 mg",
+                "Sodium, Na ": "3 mg",
+                "Zinc, Zn ": "0.28 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "22.7 mg",
+                "Thiamin ": "0.092 mg",
+                "Riboflavin ": "0.059 mg",
+                "Niacin ": "0.498 mg",
+                "Vitamin B-6 ": "0.126 mg",
+                "Folate, DFE ": "8 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "78 µg",
+                "Vitamin A, IU ": "1593 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.14 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "0.3 µg"
+            },
+            {
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09326?n1=%7BQv%3D1%7D&fgcd=&man=&lfacet=&count=&max=25&sort=default&qlookup=09326&offset=&format=Abridged&new=&measureby=&ds=&Qv=1&qt=&qp=&qa=&qn=&q=&ing="
             }
-            ,
+        ],
+        "strawberrie": [
             {
-                "Source":"https://ndb.nal.usda.gov/ndb/foods/show/09176?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=mango&ds=&qt=&qp=&qa=&qn=&q=&ing="
+                "Portion": "100gr",
+                "Water ": "90.95 g",
+                "Energy ": "32 kcal",
+                "Protein ": "0.67 g",
+                "Total lipid (fat) ": "0.3 g",
+                "Carbohydrate, by difference ": "7.68 g",
+                "Fiber, total dietary ": "2 g",
+                "Sugars, total ": "4.89 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "16 mg",
+                "Iron, Fe ": "0.41 mg",
+                "Magnesium, Mg ": "13 mg",
+                "Phosphorus, P ": "24 mg",
+                "Potassium, K ": "153 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.14 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "58.8 mg",
+                "Thiamin ": "0.024 mg",
+                "Riboflavin ": "0.022 mg",
+                "Niacin ": "0.386 mg",
+                "Vitamin B-6 ": "0.047 mg",
+                "Folate, DFE ": "24 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "1 µg",
+                "Vitamin A, IU ": "12 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.29 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "2.2 µg"
+            },
+            {
+                "Portion": "NLEEA serving 147 gr",
+                "Water ": "133.7 g",
+                "Energy ": "47 kcal",
+                "Protein ": "0.98 g",
+                "Total lipid (fat) ": "0.44 g",
+                "Carbohydrate, by difference ": "11.29 g",
+                "Fiber, total dietary ": "2.9 g",
+                "Sugars, total ": "7.19 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "24 mg",
+                "Iron, Fe ": "0.6 mg",
+                "Magnesium, Mg ": "19 mg",
+                "Phosphorus, P ": "35 mg",
+                "Potassium, K ": "225 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.21 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "86.4 mg",
+                "Thiamin ": "0.035 mg",
+                "Riboflavin ": "0.032 mg",
+                "Niacin ": "0.567 mg",
+                "Vitamin B-6 ": "0.069 mg",
+                "Folate, DFE ": "35 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "1 µg",
+                "Vitamin A, IU ": "18 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.43 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "3.2 µg"
+            },
+            {
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09316?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=Strawberries+raw&ds=&qt=&qp=&qa=&qn=&q=&ing="
+            }
+        ],
+        "grape": [
+            {
+                "Portion": "100gr (seedles, red and green)",
+                "Water ": "80.54 g",
+                "Energy ": "69 kcal",
+                "Protein ": "0.72 g",
+                "Total lipid (fat) ": "0.16 g",
+                "Carbohydrate, by difference ": "18.1 g",
+                "Fiber, total dietary ": "0.9 g",
+                "Sugars, total ": "15.48 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "10 mg",
+                "Iron, Fe ": "0.36 mg",
+                "Magnesium, Mg ": "7 mg",
+                "Phosphorus, P ": "20 mg",
+                "Potassium, K ": "191 mg",
+                "Sodium, Na ": "2 mg",
+                "Zinc, Zn ": "0.07 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "3.2 mg",
+                "Thiamin ": "0.069 mg",
+                "Riboflavin ": "0.07 mg",
+                "Niacin ": "0.188 mg",
+                "Vitamin B-6 ": "0.086 mg",
+                "Folate, DFE ": "2 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "3 µg",
+                "Vitamin A, IU ": "66 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.19 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "14.6 µg"
+            },
+            {
+                "Portion": "NLEEA serving 126 gr (seedles, red and green)",
+                "Water ": "101.48 g",
+                "Energy ": "87 kcal",
+                "Protein ": "0.91 g",
+                "Total lipid (fat) ": "0.2 g",
+                "Carbohydrate, by difference ": "22.81 g",
+                "Fiber, total dietary ": "1.1 g",
+                "Sugars, total ": "19.5 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "13 mg",
+                "Iron, Fe ": "0.45 mg",
+                "Magnesium, Mg ": "9 mg",
+                "Phosphorus, P ": "25 mg",
+                "Potassium, K ": "241 mg",
+                "Sodium, Na ": "3 mg",
+                "Zinc, Zn ": "0.09 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "4 mg",
+                "Thiamin ": "0.087 mg",
+                "Riboflavin ": "0.088 mg",
+                "Niacin ": "0.237 mg",
+                "Vitamin B-6 ": "0.108 mg",
+                "Folate, DFE ": "3 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "4 µg",
+                "Vitamin A, IU ": "83 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.24 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "18.4 µg"
+            },
+            {
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09132?fgcd=&manu=&format=&count=&max=25&offset=&sort=fg_s&order=desc&qlookup=grapes&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
+            }
+        ],
+        "peach": [
+            {
+                "Portion": "100gr",
+                "Water ": "88.87 g",
+                "Energy ": "39 kcal",
+                "Protein ": "0.91 g",
+                "Total lipid (fat) ": "0.25 g",
+                "Carbohydrate, by difference ": "9.54 g",
+                "Fiber, total dietary ": "1.5 g",
+                "Sugars, total ": "8.39 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "6 mg",
+                "Iron, Fe ": "0.25 mg",
+                "Magnesium, Mg ": "9 mg",
+                "Phosphorus, P ": "20 mg",
+                "Potassium, K ": "190 mg",
+                "Sodium, Na ": "0 mg",
+                "Zinc, Zn ": "0.17 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "6.6 mg",
+                "Thiamin ": "0.024 mg",
+                "Riboflavin ": "0.031 mg",
+                "Niacin ": "0.806 mg",
+                "Vitamin B-6 ": "0.025 mg",
+                "Folate, DFE ": "4 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "16 µg",
+                "Vitamin A, IU ": "326 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.73 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "2.6 µg"
+            },
+            {
+                "Portion": "NLEEA serving 147 gr",
+                "Water ": "130.64 g",
+                "Energy ": "57 kcal",
+                "Protein ": "1.34 g",
+                "Total lipid (fat) ": "0.37 g",
+                "Carbohydrate, by difference ": "14.02 g",
+                "Fiber, total dietary ": "2.2 g",
+                "Sugars, total ": "12.33 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "9 mg",
+                "Iron, Fe ": "0.37 mg",
+                "Magnesium, Mg ": "13 mg",
+                "Phosphorus, P ": "29 mg",
+                "Potassium, K ": "279 mg",
+                "Sodium, Na ": "0 mg",
+                "Zinc, Zn ": "0.25 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "9.7 mg",
+                "Thiamin ": "0.035 mg",
+                "Riboflavin ": "0.046 mg",
+                "Niacin ": "1.185 mg",
+                "Vitamin B-6 ": "0.037 mg",
+                "Folate, DFE ": "6 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "24 µg",
+                "Vitamin A, IU ": "479 IU",
+                "Vitamin E (alpha-tocopherol) ": "1.07 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "3.8 µg"
+            },
+            {
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09236?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=peach+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
+            }
+        ],
+        "tangerine": [
+            {
+                "Portion": "100gr",
+                "Water ": "85.17 g",
+                "Energy ": "53 kcal",
+                "Protein ": "0.81 g",
+                "Total lipid (fat) ": "0.31 g",
+                "Carbohydrate, by difference ": "13.34 g",
+                "Fiber, total dietary ": "1.8 g",
+                "Sugars, total ": "10.58 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "37 mg",
+                "Iron, Fe ": "0.15 mg",
+                "Magnesium, Mg ": "12 mg",
+                "Phosphorus, P ": "20 mg",
+                "Potassium, K ": "166 mg",
+                "Sodium, Na ": "2 mg",
+                "Zinc, Zn ": "0.07 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "26.7 mg",
+                "Thiamin ": "0.058 mg",
+                "Riboflavin ": "0.036 mg",
+                "Niacin ": "0.376 mg",
+                "Vitamin B-6 ": "0.078 mg",
+                "Folate, DFE ": "16 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "34 µg",
+                "Vitamin A, IU ": "681 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.2 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "0 µg"
+            },
+            {
+                "Portion": "NLEEA serving 109 gr",
+                "Water ": "92.84 g",
+                "Energy ": "58 kcal",
+                "Protein ": "0.88 g",
+                "Total lipid (fat) ": "0.34 g",
+                "Carbohydrate, by difference ": "14.54 g",
+                "Fiber, total dietary ": "2 g",
+                "Sugars, total ": "11.53 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "40 mg",
+                "Iron, Fe ": "0.16 mg",
+                "Magnesium, Mg ": "13 mg",
+                "Phosphorus, P ": "22 mg",
+                "Potassium, K ": "181 mg",
+                "Sodium, Na ": "2 mg",
+                "Zinc, Zn ": "0.08 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "29.1 mg",
+                "Thiamin ": "0.063 mg",
+                "Riboflavin ": "0.039 mg",
+                "Niacin ": "0.41 mg",
+                "Vitamin B-6 ": "0.085 mg",
+                "Folate, DFE ": "17 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "37 µg",
+                "Vitamin A, IU ": "742 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.22 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "0 µg"
+            },
+            {
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09218?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=Tangerines%2C+%28mandarin+oranges%29%2C+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
+            }
+        ],
+        "blueberrie": [
+            {
+                "Portion": "100gr",
+                "Water ": "84.21 g",
+                "Energy ": "57 kcal",
+                "Protein ": "0.74 g",
+                "Total lipid (fat) ": "0.33 g",
+                "Carbohydrate, by difference ": "14.49 g",
+                "Fiber, total dietary ": "2.4 g",
+                "Sugars, total ": "9.96 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "6 mg",
+                "Iron, Fe ": "0.28 mg",
+                "Magnesium, Mg ": "6 mg",
+                "Phosphorus, P ": "12 mg",
+                "Potassium, K ": "77 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.16 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "9.7 mg",
+                "Thiamin ": "0.037 mg",
+                "Riboflavin ": "0.041 mg",
+                "Niacin ": "0.418 mg",
+                "Vitamin B-6 ": "0.052 mg",
+                "Folate, DFE ": "6 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "3 µg",
+                "Vitamin A, IU ": "54 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.57 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "19.3 µg"
+            },
+            {
+                "Portion": "NLEEA serving 68 gr",
+                "Water ": "57.26 g",
+                "Energy ": "39 kcal",
+                "Protein ": "0.5 g",
+                "Total lipid (fat) ": "0.22 g",
+                "Carbohydrate, by difference ": "9.85 g",
+                "Fiber, total dietary ": "1.6 g",
+                "Sugars, total ": "6.77 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "4 mg",
+                "Iron, Fe ": "0.19 mg",
+                "Magnesium, Mg ": "4 mg",
+                "Phosphorus, P ": "8 mg",
+                "Potassium, K ": "52 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.11 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "6.6 mg",
+                "Thiamin ": "0.025 mg",
+                "Riboflavin ": "0.028 mg",
+                "Niacin ": "0.284 mg",
+                "Vitamin B-6 ": "0.035 mg",
+                "Folate, DFE ": "4 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "2 µg",
+                "Vitamin A, IU ": "37 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.39 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "13.1 µg"
+            },
+            {
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09050?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=Blueberries%2C+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing="
+            }
+        ],
+        "mango": [
+            {
+                "Portion": "100gr",
+                "Water ": "83.46 g",
+                "Energy ": "60 kcal",
+                "Protein ": "0.82 g",
+                "Total lipid (fat) ": "0.38 g",
+                "Carbohydrate, by difference ": "14.98 g",
+                "Fiber, total dietary ": "1.6 g",
+                "Sugars, total ": "13.66 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "11 mg",
+                "Iron, Fe ": "0.16 mg",
+                "Magnesium, Mg ": "10 mg",
+                "Phosphorus, P ": "14 mg",
+                "Potassium, K ": "168 mg",
+                "Sodium, Na ": "1 mg",
+                "Zinc, Zn ": "0.09 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "36.4 mg",
+                "Thiamin ": "0.028 mg",
+                "Riboflavin ": "0.038 mg",
+                "Niacin ": "0.669 mg",
+                "Vitamin B-6 ": "0.119 mg",
+                "Folate, DFE ": "43 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "54 µg",
+                "Vitamin A, IU ": "1082 IU",
+                "Vitamin E (alpha-tocopherol) ": "0.9 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "4.2 µg"
+            },
+            {
+                "Portion": "NLEEA serving 336 gr",
+                "Water ": "280.43 g",
+                "Energy ": "202 kcal",
+                "Protein ": "2.76 g",
+                "Total lipid (fat) ": "1.28 g",
+                "Carbohydrate, by difference ": "50.33 g",
+                "Fiber, total dietary ": "5.4 g",
+                "Sugars, total ": "45.9 g",
+                "Minerals": " ",
+                "Calcium, Ca ": "37 mg",
+                "Iron, Fe ": "0.54 mg",
+                "Magnesium, Mg ": "34 mg",
+                "Phosphorus, P ": "47 mg",
+                "Potassium, K ": "564 mg",
+                "Sodium, Na ": "3 mg",
+                "Zinc, Zn ": "0.3 mg",
+                "Vitamins": " ",
+                "Vitamin C, total ascorbic acid ": "122.3 mg",
+                "Thiamin ": "0.094 mg",
+                "Riboflavin ": "0.128 mg",
+                "Niacin ": "2.248 mg",
+                "Vitamin B-6 ": "0.4 mg",
+                "Folate, DFE ": "144 µg",
+                "Vitamin B-12 ": "0 µg",
+                "Vitamin A, RAE ": "181 µg",
+                "Vitamin A, IU ": "3636 IU",
+                "Vitamin E (alpha-tocopherol) ": "3.02 mg",
+                "Vitamin D (D2 + D3) ": "0 µg",
+                "Vitamin D ": "0 IU",
+                "Vitamin K (phylloquinone) ": "14.1 µg"
+            },
+            {
+                "Source": "https://ndb.nal.usda.gov/ndb/foods/show/09176?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=mango&ds=&qt=&qp=&qa=&qn=&q=&ing="
             }
         ]
-
-
+    }
 }

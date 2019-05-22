@@ -1,3 +1,4 @@
+
 /*  XMLHttpRequest request  */
 let fruitsData;
 
@@ -7,16 +8,16 @@ let request = new XMLHttpRequest();
 
 request.responseType = "json";
 
-request.open("GET",requestURL);
+request.open("GET", requestURL);
 
 request.send();
 
-request.onload = function() {
+request.onload = function () {
 
 
     fruitsData = request.response;
-    
-    addEvents();
+
+    addButtons();
 
     console.log("loaded");
 };
@@ -25,79 +26,55 @@ request.onload = function() {
 /*  main code */
 
 
-function populateFruit() {
+function populateCard(element) {
+//pop
 
+    let currentFruit = element.id;
 
-    let currentFruit = this.id;
-    let current = this.parentElement.parentElement.parentElement;
-    current.getElementsByClassName("fruit-title")[0].innerHTML =  fruitsData[this.id].Name; 
-    current.getElementsByClassName("fruit-description")[0].innerHTML =  fruitsData[this.id].Description; 
-
+    let current = element.parentElement.parentElement.parentElement;
     let fruitProp = current.getElementsByClassName("fruit-prop")[0];
 
     //change the name of the dropdown button
 
-    this.parentElement.parentElement.firstElementChild.innerHTML = fruitsData[this.id].Name;
+    element.parentElement.parentElement.firstElementChild.innerHTML = currentFruit.charAt(0).toUpperCase() + currentFruit.slice(1);
 
-      fruitProp.innerHTML = "";
+    fruitProp.innerHTML = "";
 
     //   add event listeners
-
-     for( let i = 2; i < fruitsData.Standar_properties.length; i++ ){
-
-        let propertie = fruitsData.Standar_properties[i];
-
+    for (let propertie in fruitsData.fruits[currentFruit][1]) {
         let newLI = document.createElement("li");
 
-        if(propertie === "Source") {
-           
-            newLI.innerHTML =  "<a class='sourceLink' href='"+fruitsData[currentFruit][propertie]+ "' >Source</a>";
-            
-            newLI.style.textDecoration = "none"; newLI.style.color = "white";
+        if (propertie === "Source") {
+
+            newLI.innerHTML = `<a class='sourceLink' href='${fruitsData.fruits[currentFruit][1][propertie]}' >Source</a>`;
+
+            newLI.style.textDecoration = "none";
+            newLI.style.color = "white";
 
         } else {
-        
-        newLI.innerHTML =  propertie + ": " + fruitsData[currentFruit][propertie]+".";
+
+            newLI.innerHTML = propertie + ": " + fruitsData.fruits[currentFruit][1][propertie] + ".";
         }
 
-
         fruitProp.appendChild(newLI);
-
-        // add the image
-
-        let imgContainer = current.querySelectorAll(".card-img-top")[0];
-
-        imgContainer.src = "images/" + currentFruit + ".jpg"
-     }
-
-
-
-
-
+    }
 }
 
 
 
-//multiply the comparison container
+function addButtons() {
 
-function getMoreComparisonContainers() {
+    dropdowns = document.querySelectorAll(".dropdown-menu");
 
-let element = document.getElementById("comparison-container");
+    for (let dropdown of dropdowns) {
 
+        dropdown.innerHtml = "";
 
+        for (let fruit in fruitsData.fruits) {
+            dropdown.innerHTML += `<button id="${fruit}" onclick="populateCard(this)" class="selector dropdown-item" type="button">${fruit.charAt(0).toUpperCase() + fruit.slice(1)}</button>`;
 
-}
-
-
-
-// adding the event listener to the buttons
-function addEvents(){
-let selector = document.querySelectorAll(".selector");
-
-for(let x of selector) {
-    
-    x.addEventListener("click",populateFruit)};
-
+        }
+    }
 }
 
 
@@ -108,7 +85,3 @@ for(let x of selector) {
 
 
 
-// selector[1].addEventListener("touchstart", event);
-// selector[1].addEventListener("click", event);
-// selector[1].addEventListener("", event);
-// function event(e) {this.innerHTML = e        }
