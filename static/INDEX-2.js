@@ -58,6 +58,11 @@ function populateCard(element) {
 
         fruitProp.appendChild(newLI);
     }
+
+    //fix problem with the footer
+    let footer = document.querySelector("footer");
+
+    footer.style.bottom = "auto";
 }
 
 
