@@ -2,7 +2,7 @@
 /*  XMLHttpRequest request  */
 let fruitsData;
 
-let requestURL = 'fruitsData.json';
+let requestURL = '../static/fruitsData.json';
 
 let request = new XMLHttpRequest();
 
@@ -27,7 +27,7 @@ request.onload = function () {
 
 
 function populateCard(element) {
-//pop
+
 
     let currentFruit = element.id;
 
