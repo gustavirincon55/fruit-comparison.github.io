@@ -40,7 +40,15 @@ font-size: 28px;
 }
 
 
+ul
+{
+    padding: 0;
+}
 
+li
+{
+    height: 2em;
+}
 
 .main-footer {
     position: absolute;
