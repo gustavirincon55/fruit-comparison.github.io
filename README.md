@@ -1,4 +1,4 @@
-# fruit-comparison.github.io
+# fruit-comparison
 Page to compare fruits.
 
 By building this page i practiced:
