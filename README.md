@@ -7,3 +7,4 @@ By building this page i practiced:
 - AJAX programming.
 - JSON.
 - Bootstrap.
+- HTML/CSS.
